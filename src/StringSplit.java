@@ -4,16 +4,37 @@ public class StringSplit
 
 	public static void main(String[] args) 
 	{
-		String bread = "apples pineapples bread lettus tomato bacon mayo ham bread cheese";
+		String bread = "apples pineapples bread lettuce tomato bacon mayo ham cheese";
+	
 		
+		breadFinder(bread);
 		
 		String [] ingredients = bread.split("bread");
-		int slices = ingredients.length-1;
+		
+		
+		
 		for (int i = 0; i < ingredients.length; i++){
+			if ( i % 2 != 0){
 			System.out.println(ingredients[i]);
+			}
 		}
-		
-		
+	}
+	
+	 public static int breadFinder (String sandwich){
+		 
+		 int slices = 0;
+		 
+		 while (sandwich.indexOf("bread")>= 0){
+			
+			sandwich = sandwich.substring(sandwich.indexOf("bread"));
+				 slices++;
+			
+		 }
+		 		 
+		 System.out.println(slices);
+		 return slices;
+	 }
+	
 		
 		//String.split();
 		//It's a method that acts on a string, <StringName>.split(<String sp>);
@@ -41,7 +62,5 @@ public class StringSplit
 		*/
 
 		
-
-	}
 
 }
