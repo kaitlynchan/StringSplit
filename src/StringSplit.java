@@ -8,7 +8,7 @@ public class StringSplit
 		
 		
 		String [] ingredients = bread.split("bread");
-		int slices = ingredients.length-1;
+	
 		for (int i = 0; i < ingredients.length; i++){
 			System.out.println(ingredients[i]);
 		}
