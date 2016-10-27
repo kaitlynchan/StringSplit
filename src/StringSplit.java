@@ -10,39 +10,6 @@ public class StringSplit
 
 	public static void main(String[] args) 
 	{
-<<<<<<< HEAD
-		String bread = "apples pineapples bread lettuce tomato bacon mayo ham cheese";
-	
-		
-		breadFinder(bread);
-		
-		String [] ingredients = bread.split("bread");
-		
-		
-		
-		for (int i = 0; i < ingredients.length; i++){
-			if ( i % 2 != 0){
-			System.out.println(ingredients[i]);
-			}
-		}
-	}
-	
-	 public static int d (Standwich){
-		 
-		 int slices = 0;
-		 
-		 while (sandwich.indexOf("bread")>= 0){
-			
-			sandwich = sandwich.substring(sandwich.indexOf("bread"));
-				 slices++;
-			
-		 }
-		 		 
-		 System.out.println(slices);
-		 return slices;
-	 }
-	
-=======
 		//prints the ingredients between the slices of bread in a sandwich
 		split("bloodsweattearsbreadapplesbreadlettusbreadtomatobaconmayohambreadcheese");
 		//prints the ingredients between the slices of bread in a spaced sandwich 
@@ -72,6 +39,7 @@ public class StringSplit
 			slices++;
 			
 		}
+		
 		System.out.println("Slices of bread: " + slices);
 		
 		//take out all the bread and place ingredients into an array
@@ -116,10 +84,9 @@ public class StringSplit
 		//run the split method on the unspaced sandwich string
 		split(Arrays.toString(nospacesandwich));
 	}
-		
-		
->>>>>>> origin/master
-		
+	
+}
+
 		//String.split();
 		//It's a method that acts on a string, <StringName>.split(<String sp>);
 		//Where sp is the string where the string splits
@@ -147,10 +114,7 @@ public class StringSplit
 
 		
 
-<<<<<<< HEAD
-}
-=======
-	}
 
 
->>>>>>> origin/master
+
+
