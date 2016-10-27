@@ -20,7 +20,7 @@ public class StringSplit
 		}
 	}
 	
-	 public static int breadFinder (String sandwich){
+	 public static int d (Standwich){
 		 
 		 int slices = 0;
 		 
